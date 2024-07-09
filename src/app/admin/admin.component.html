@@ -1,0 +1,47 @@
+<html>
+
+<head>
+</head>
+
+<div id="tablota" style="display: grid; grid-template-columns: repeat(2, 1fr);">
+  <table class="custom-table">
+    <tr>
+      <td>Usuario:</td>
+      <td colspan="2"><input placeholder="Usuario" [(ngModel)]="id" (ngModelChange)="buscar()"></td>
+    </tr>
+    <tr>
+      <td>Nombre:</td>
+      <td colspan="2"><input placeholder="Nombre" required="required" [(ngModel)]="nombre"></td>
+    </tr>
+    <tr>
+      <td>Apellido:</td>
+      <td colspan="2"><input placeholder="Apellido" required="required" [(ngModel)]="apellido"></td>
+    </tr>
+    <tr>
+      <td>Password:</td>
+      <td colspan="2"><input type="password" placeholder="Password" required="required" [(ngModel)]="password"></td>
+    </tr>
+    <tr>
+      <td>Tipo de Usuario:</td>
+      <td colspan="2">
+        <select [(ngModel)]="tipoUsu">
+          <option value="Administrador"> Administrador </option>
+          <option value="Empleado"> Empleado </option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><button class="Nuevo" (click)="nuevo()">Nuevo</button></td>
+      <td><button class="Guardar" (click)="guardar()">Guardar</button></td>
+      <td><button class="Eliminar" (click)="borrar()">Eliminar</button></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <div style="text-align: center; color: red; font-family: Arial, Helvetica, sans-serif;">{{texto}}</div>
+      </td>
+    </tr>
+  </table>
+
+</div>
+
+</html>

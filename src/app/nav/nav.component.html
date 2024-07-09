@@ -1,0 +1,26 @@
+<mat-toolbar>
+  <ul>
+    <img class="Logo" src="https://i.ibb.co/mhNXRpj/LOGO-LEVEL-WATER.png" alt="Logo Level Water">
+  </ul>
+  <ul>
+    <a [routerLink]="['graficas']"> Gráficas </a>
+  </ul>
+  <ul>
+    <a [routerLink]="['consultanivel']"> Nivel </a>
+  </ul>
+  <ul>
+    <a [routerLink]="['admin']"> Administrador </a>
+  </ul>
+  <ul>
+    <img class="Usuario" src="https://i.ibb.co/qBPsv2w/guardia-de-seguridad.png" alt="Icono de usuario">
+  </ul>
+  <ul> {{usuarioLogeado}} </ul>
+  <ul>
+    <button mat-raised-button class="btn-bootstrap" (click)="Salir()">
+      Salir
+    </button>
+  </ul>
+</mat-toolbar>
+<div class="contenido">
+  <router-outlet></router-outlet>
+</div>

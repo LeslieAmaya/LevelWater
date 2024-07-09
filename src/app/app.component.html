@@ -1,0 +1,6 @@
+<html>
+  <body>
+    <div *ngIf="usu==null;else elseBlock"> <app-login></app-login></div>
+    <ng-template #elseBlock><app-nav></app-nav></ng-template>
+  </body>
+</html>

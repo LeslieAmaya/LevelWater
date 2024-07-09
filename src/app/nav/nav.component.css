@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+mat-toolbar {
+	font-size: 20px;
+	background-color: #00a6ff;
+}
+.Logo{
+	width: 56px;
+	margin-top: 5px;
+	margin-left: -20px;
+}
+.Usuario {
+	width: 50px;
+	margin-top: 5px;
+	margin-left: 920px;
+	margin-right: -30px;
+}
+a {
+	font-size: 20px;
+	display: inline-block;
+	position:relative;
+	z-index: 1;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+body {
+	font-size: 12px;
+	font-family: sans-serif;
+	background: #2c3e50;
+}
+span {
+    color: #2BD6B4;
+}
+
+btn-bootstrap {
+	padding: .375rem .75rem;
+	border-radius: 1rem;
+	background-color: #0d82ff;
+	color: #fff;
+	transition: background-color .15s ease-in-out;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .btn-bootstrap:hover, .btn-bootstrap:focus {
+	background-color: #ff0000;
+  }
+  
+  .btn-bootstrap:active {
+	background-color: #cc0000;
+  }
+
+
+

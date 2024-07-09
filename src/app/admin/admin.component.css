@@ -1,0 +1,74 @@
+  .custom-table {
+    padding: 1rem 2rem;
+    margin: 180px;
+    border-radius: 5%;
+    background-color: #ffffff;
+    margin-top: 3rem;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .custom-table input {
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    border: none;
+    border: 0 none;
+    background: #f8f1f1ce;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .custom-table select {
+    display: block;
+    margin: 1.5rem 0;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: none;
+    border: 0 none;
+    background: #f8f1f1ce;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .Nuevo{
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: none;
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #00b7ff;
+    width: 90%;
+    display: block;
+    padding: 0.875rem 1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+  }
+  .Guardar{
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: none;
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #00b7ff;
+    width: 90%;
+    display: block;
+    padding: 0.875rem 1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+  }
+  .Eliminar{
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: none;
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #f70d0d;
+    width: 90%;
+    display: block;
+    padding: 0.875rem 1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+  }
+  
